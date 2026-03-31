@@ -104,7 +104,7 @@ export default function App() {
               className={`tab tab-lg px-10 font-black rounded-full transition-all ${view === 'cart' ? 'tab-active bg-primary text-white shadow-lg' : ''}`}
               onClick={() => setView('cart')}
             >
-              CART
+              CART ({cart.length})
             </button>
           </div>
         </div>
