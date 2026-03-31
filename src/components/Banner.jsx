@@ -24,7 +24,7 @@ export const Banner = () => (
           Build ATS-optimized resumes, track your applications, and land your dream job with our comprehensive suite of professional digital tools.
         </p>
         <div className="flex gap-4">
-          <button className="btn btn-primary shadow-xl px-8">Explore Products</button>
+          <button className="btn btn-primary shadow-xl px-8 rounded-full hover:bg-white hover:text-primary">Explore Products</button>
           <button className="btn btn-outline border-[#9514FA] rounded-3xl hover:bg-linear-to-r hover:from-[#8d7ff5] hover:to-[#c27cf7] hover:text-white hover:border-none"><img src={play} alt="" />Watch Demo</button>
         </div>
       </div>

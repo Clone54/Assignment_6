@@ -1,7 +1,7 @@
 import { CheckCircle } from 'lucide-react';
 
 export const PricingSection = () => (
-  <div className="py-24 px-4 md:px-12 bg-white">
+  <div id="pricing-section" className="py-24 px-4 md:px-12 bg-white">
     <div className="text-center mb-16">
       <h2 className="text-4xl font-black mb-4 uppercase tracking-tighter">Simple, Tranperant Pricing</h2>
       <p className="opacity-70">Choose the plans that fits your needs. Upgrade or downgrade anytime.</p>
