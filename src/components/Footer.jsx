@@ -6,7 +6,7 @@ import x from '../Assets/x.png';
 
 
 export const Footer = () => (
-  <footer className="footer p-12 md:py-20 md:px-50 bg-[#101727] text-neutral-content flex flex-col items-start gap:15 lg:flex-row lg:justify-center lg:gap-40">
+  <footer className="footer p-12 md:py-20 md:px-50 bg-[#101727] text-neutral-content grid grid-cols-2 gap:25 md:flex items-start lg:flex-row lg:justify-center lg:gap-40">
     <aside className='max-w-xs'>
       <img src={footerLogo} alt="DigiTools Logo" className="w-32 h-auto mb-2" />
       <p>Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.</p>
