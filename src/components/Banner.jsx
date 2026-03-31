@@ -1,6 +1,6 @@
 import bannerLogo from '../Assets/banner.png';
 import dot from '../Assets/Group 5.png';
-import play from '../Assets/play.png';
+import play from '../Assets/Play.png';
 
 export const Banner = () => (
   <div className="hero min-h-[60vh] bg-base-200 px-4 md:px-12">
