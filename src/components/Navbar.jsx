@@ -16,7 +16,7 @@ export const Navbar = ({ cartCount, onViewChange }) => (
         <button className="btn btn-ghost btn-sm">Testimonials</button>
         <button className="btn btn-ghost btn-sm">FAQ</button>
       </div>
-    <div>
+    <div className='flex'>
       <button 
         className="btn btn-ghost btn-circle"
         onClick={() => onViewChange('cart')}
@@ -26,7 +26,7 @@ export const Navbar = ({ cartCount, onViewChange }) => (
           {cartCount > 0 && <span className="badge badge-xs badge-secondary indicator-item">{cartCount}</span>}
         </div>
       </button>
-      <button className='btn rounded-full'>
+      <button className='hidden btn rounded-full md:flex'>
         Login
       </button>
       <button className='btn btn-primary rounded-full hover:bg-white hover:text-primary'>Get Started</button>
