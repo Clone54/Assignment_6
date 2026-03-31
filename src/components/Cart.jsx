@@ -40,7 +40,6 @@ export const Cart = ({ cart, removeFromCart, proceedToCheckout, setView }) => {
                 onClick={proceedToCheckout}
               >
                 Proceed to Checkout
-                <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
               </button>
             </div>
           </div>
