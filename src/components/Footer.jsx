@@ -1,5 +1,8 @@
 import { Zap } from 'lucide-react';
 import footerLogo from '../Assets/footerlogo.png';
+import fb from '../Assets/fb.png';
+import insta from '../Assets/insta.png';
+import x from '../Assets/x.png';
 
 
 export const Footer = () => (
@@ -33,10 +36,10 @@ export const Footer = () => (
     </nav> 
     <nav>
       <h6 className="footer-title">Social Links</h6>
-      <div>
-        <a className="link link-hover">Terms of Service</a>
-        <a className="link link-hover">Privacy Policy</a>
-        <a className="link link-hover">Security</a>
+      <div className='flex gap-2 w-42 h-42 '>
+        <a className="link link-hover flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-sm hover:shadow-md transition-all"><img src={fb} alt="" className='w-9 h-9'/></a>
+        <a className="link link-hover flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-sm hover:shadow-md transition-all"><img src={insta} alt="" className='w-9 h-9'/></a>
+        <a className="link link-hover flex items-center justify-center w-12 h-12 rounded-full bg-white shadow-sm hover:shadow-md transition-all"><img src={x} alt="" className='w-6 h-6'/></a>
       </div>
     </nav>
   </footer>
