@@ -6,7 +6,7 @@ export const Navbar = ({ cartCount, onViewChange }) => (
   <div className="navbar flex items-center justify-between bg-base-100 shadow-lg sticky top-0 z-50 px-4 md:px-42">
     <div>
       <a href="/index.html">
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo" className='w-1/2 md:w-full' />
       </a>
     </div>
       <div className="hidden md:flex gap-1 mr-4">
